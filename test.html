@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/test.css">
+    <script src="/Assets/JS/test.js" defer></script>
+    <script src="/Assets/JS/webdocs.js" defer></script>
+    <script src="/Assets/JS/w3s.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Data Selfie App</h1>
+
+    <p>
+        latitude: <span id="latitude"></span>&deg;<br />
+        longitude: <span id="longitude"></span>&deg;
+    </p>
+
+    
+    <!-- Example test -->
+    <button id="find-me">Show my location</button><br />
+    <p id="status"></p>
+    <a id="map-link" target="_blank"></a>
+
+
+    <!-- W3S code example -->
+    <p>Click the button to get your coordinates.</p>
+
+    <button onclick="getLocation()">Try It</button>
+
+    <p id="demo"></p>
+    
+</body>
+</html>
