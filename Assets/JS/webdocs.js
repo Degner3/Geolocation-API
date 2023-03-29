@@ -1,56 +1,6 @@
 
 // Codes from Web docs
 
-/*
-   const watchID = navigator.geolocation.watchPosition((position) => {
-    doSomething(position.coords.latitude, position.coords.longitude);
-   });
-*/
-
-
-// navigator.geolocation.clearWatch(watchID);
-
-
-
-/*
-function success(position) {
-    doSomething(position.coords.latitude, position.coords.longitude);
-  }
-  
-  function error() {
-    alert("Sorry, no position available.");
-  }
-  
-  const options = {
-    enableHighAccuracy: true,
-    maximumAge: 30000,
-    timeout: 27000,
-  };
-  
-  const watchID = navigator.geolocation.watchPosition(success, error, options);
-  */
-
-
-
-
-// Describing a position
-/*
-function success(position) {
-    const latitude = position.coords.latitude;
-    const longitude = position.coords.longitude;
-  
-    // Do something with your latitude and longitude
-}
-*/
-
-
-// Handling error
-/*
-function errorCallback(error) {
-    alert(`ERROR(${error.code}): ${error.message}`);
-  }
-  */
-
 
 // Example test
 function geoFindMe() {
@@ -82,10 +32,6 @@ function geoFindMe() {
 }
 
 document.querySelector("#find-me").addEventListener("click", geoFindMe);
-
-
-
-
 
 
 // Geolocation.getCurrentPosition()
@@ -150,6 +96,17 @@ const options = {
 // Parameters
 // id
 /* ID-nummeret, der returneres af metoden Geolocation.watchPosition() ved installation af den behandler, du ønsker at fjerne. */
+
+
+
+
+
+
+
+
+
+
+
 
 // Geolocation.watchPosition()
 /* 
