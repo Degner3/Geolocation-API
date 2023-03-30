@@ -1,7 +1,9 @@
 
 // W3S code
 
-let x = document.getElementById("demo");
+//Code: https://www.w3schools.com/html/html5_geolocation.asp
+
+let x = document.getElementById("result");
 
 function getLocation() {
   if (navigator.geolocation) {
