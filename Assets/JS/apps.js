@@ -4,7 +4,7 @@ const myApp = document.getElementById('app');
 
 function success(position) {
     const crd = position.coords;
-    myApp.innerText = `${crd} Your current position is: Latitude : ${crd.latitude} Longitude: ${crd.longitude} More or less ${crd.accuracy} meters.`;
+    myApp.innerText = `Your current position is: Latitude : ${crd.latitude} Longitude: ${crd.longitude} More or less ${crd.accuracy} meters.`;
     getLocationName(crd.longitude, crd.latitude);
 }
 
